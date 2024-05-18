@@ -1,11 +1,11 @@
-# Hello, I'm Eliana Diaz!
+# Hello World!
 
-Welcome to my GitHub profile! I am a Computer Science student from San Antonio, TX, currently attending The University of Texas at San Antonio, where I'm focusing on Cyber Operations. My graduation is planned for May 2026, and I am passionate about technology, cybersecurity, and software development.
+Welcome to my GitHub profile! I am a Computer Science student currently attending The University of Texas at San Antonio, where I'm focusing on Cyber Security. My graduation is planned for May 2026, and I am passionate about technology, cybersecurity, and software development.
 
 ## 🎓 Education
 
 - **Bachelor of Science in Computer Science**
-  - Concentration in Cyber Operations
+  - Concentration in Cyber Security
   - The University of Texas at San Antonio, Graduation: May 2026
 
 ## 💼 Work Experience
