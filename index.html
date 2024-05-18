@@ -3,87 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eliana Diaz</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            margin: 0; 
-            padding: 0; 
-        }
-        .container { 
-            width: 80%; 
-            margin: auto; 
-            max-width: 800px; /* Prevents the content from stretching too far on larger screens */
-        }
-        header, section { 
-            padding: 20px 0; 
-        }
-        header { 
-            background: #333; 
-            color: #fff; 
-            text-align: center; 
-        }
-        header h1 { 
-            margin: 0; 
-        }
-        section { 
-            margin-bottom: 20px; 
-            line-height: 1.6; /* Increases spacing between lines for better readability */
-        }
-        .skills li, .projects li { 
-            margin-bottom: 10px; 
-        }
-    </style>
+    <title>Eliana Diaz - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Eliana Diaz Portfolio</h1>
+        <div class="container">
+            <h1>Eliana Diaz</h1>
+            <p>Computer Science Student | Cybersecurity Enthusiast</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Currently pursuing a Computer Science degree with a concentration in Cyber Operations at UTSA, I am passionate about 
-                entering the field of cybersecurity, particularly as an aspiring penetration tester. My internship experiences at 
-                Methodist Healthcare Ministries of South Texas, Inc. and Southwest Research Institute have equipped me with valuable 
-                skills in IT desktop support, problem-solving, and collaboration. I am actively working on obtaining the Google 
-                Cybersecurity Professional Certificate and studying for the CompTIA Security+ Certification exam to further enhance 
-                my knowledge and expertise in the field.</p>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul class="projects">
-                <li><strong>Project Name:</strong> Description. <a href="#">Demo</a> | <a href="#">Code</a></li>
-                <!-- Add more projects here -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>I'm a Computer Science student at The University of Texas at San Antonio with a concentration in Cyber Operations. I have a passion for technology, cybersecurity, and software development. Currently, I am studying for the CompTIA Security+ certification and have completed the Google Cybersecurity Professional Certificate.</p>
+    </section>
+    <section id="experience" class="container">
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>IT&S Desktop Support Intern</h3>
+            <h4>Methodist Healthcare Ministries of South Texas | Jun 2022 - Aug 2022</h4>
+            <ul>
+                <li>Resolved over 200 user requests per month within strict SLA guidelines.</li>
+                <li>Managed the deployment of software applications on 50+ user devices.</li>
+                <li>Provided remote troubleshooting assistance to over 100 end-users.</li>
             </ul>
-        </section>
-
-        <section id="certs">
-            <h2>Certifications</h2>
-            <ul class="certs">
-                <li>Google Cybersecurity Professional Certificate (WIP)</li>
-                <!-- Add more here -->
+        </div>
+        <div class="experience">
+            <h3>STEM Intern - Space Science</h3>
+            <h4>Southwest Research Institute | Jun 2021 - Jul 2021</h4>
+            <ul>
+                <li>Enhanced team collaboration and problem-solving skills.</li>
+                <li>Developed Java programs for scientific conversions and calculations.</li>
+                <li>Designed and built functional prototypes using Arduino and wiring.</li>
             </ul>
-        </section>
-
-        <section id="skills">
-            <h2>Skills and Technologies</h2>
-            <ul class="skills">
-                <li>Languages: Python, Java, C, Bash</li>
-                <li>Operating Systems: Windows 10/11, Linux</li>
-                <li>Tools: Docker, Git, AWS</li>
-                <!-- Add more skills here -->
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:diazelianamarie@gmail.com">diazelianamarie@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/ElianaMDiaz/">Eliana Diaz</a></p>
-            <p>GitHub: <a href="https://github.com/ediaz2004">ediaz2004</a></p>
-        </section>
-    </div>
+        </div>
+    </section>
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Java</li>
+            <li>Python</li>
+            <li>C/C++</li>
+            <li>Bash</li>
+            <li>Ubuntu Linux</li>
+            <li>Kali Linux</li>
+            <li>Windows 10/11</li>
+            <li>macOS</li>
+            <li>Wireshark</li>
+            <li>SIEM Tools</li>
+            <li>Virtual Machines</li>
+            <li>Information Security</li>
+            <li>Incident Response</li>
+            <li>Vulnerability Management</li>
+            <li>Networking</li>
+            <li>Customer Service</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Inventory Management System</h3>
+                <p>A bash script-based system for managing inventory items through CRUD operations. Developed as part of my coursework in Systems Programming.</p>
+                <a href="https://github.com/ediaz2004/inventory-management-system" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Company Bookkeeping System</h3>
+                <p>A Java program to manage payroll and utility payments for various types of employees and utility costs.</p>
+                <a href="https://github.com/ediaz2004/company-bookkeeping-system" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
+        <ul class="contact-list">
+            <li>Email: <a href="mailto:diazelianamarie@gmail.com">diazelianamarie@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/eliana-diaz/" target="_blank">Eliana Diaz</a></li>
+            <li>GitHub: <a href="https://github.com/ediaz2004" target="_blank">ediaz2004</a></li>
+        </ul>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Eliana Diaz</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
